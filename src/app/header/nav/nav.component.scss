@@ -16,3 +16,15 @@
     }
   }
 }
+
+@media(max-width: 780px){
+  .navbar{
+    width: 90%;
+    .tw-logo{
+      width: 200px;
+    }
+    .navbar-collapse{
+      margin-left: 20px;
+    }
+  }
+}
