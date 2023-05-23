@@ -1,1 +1,20 @@
 @import '../../../styles.scss';
+
+.tw-banner{
+  padding-top: 100px;
+
+  &__text{
+    margin-top: 50px;
+
+    h1{
+      margin: 20px 0;
+    }
+  }
+
+  &__img{
+    img{
+      position: absolute;
+      margin-left: -100px;
+    }
+  }
+}

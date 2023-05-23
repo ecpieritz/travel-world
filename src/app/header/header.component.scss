@@ -1,5 +1,9 @@
 @import '../../styles.scss';
 
 .tw-header{
+  width: 100%;
   padding: 20px 10%;
+  background-image: url(../../assets/img/tw-banner__bg.png);
+  background-repeat: no-repeat;
+  background-position: right top;
 }
