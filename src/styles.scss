@@ -7,6 +7,57 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.volkhov-font{
+.container-fluid{
+  max-width: 1100px;
+}
+
+// COLORS
+$tw-blue: #181E4B;
+$tw-cyan: #006380;
+$tw-orange: #DF6951;
+$tw-orange-lg: #FF946D;
+$tw-yellow: #F1A501;
+$tw-yellow-lg: #dacebb;
+$tw-text: #1e202c;
+$tw-white: #ffffff;
+
+
+// TEXTS
+h1{
   font-family: 'Volkhov', serif;
+  font-size: 60px;
+  color: $tw-blue;
+}
+
+h2{
+  font-family: 'Volkhov', serif;
+  font-size: 45px;
+  color: $tw-blue;
+}
+
+h3{
+  font-family: 'Volkhov', serif;
+  font-size: 35px;
+  color: $tw-blue;
+}
+
+h4{
+  font-size: 25px;
+  color: $tw-blue;
+}
+
+p{
+  font-size: 22px;
+}
+
+// COLORS
+.tw-color{
+  &__text{
+    &__orange{
+      color: $tw-orange;
+    }
+    &white{
+      color: $tw-white;
+    }
+  }
 }
