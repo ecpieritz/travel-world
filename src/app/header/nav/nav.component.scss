@@ -1,2 +1,18 @@
 @import '../../../styles.scss';
 
+.navbar{
+  position: absolute;
+  z-index: 2;
+  .tw-logo{
+    width: 300px;
+  }
+  .navbar-collapse{
+    margin-left: 35%;
+    .nav-link{
+      font-weight: 600;
+      &:hover{
+        color: $tw-yellow;
+      }
+    }
+  }
+}
