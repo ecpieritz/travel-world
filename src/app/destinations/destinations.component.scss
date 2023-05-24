@@ -1,0 +1,45 @@
+@import '../../styles.scss';
+
+.tw-destinations{
+  margin: 150px auto 80px;
+
+  &__title{
+    margin-bottom: 80px;
+  }
+
+  &__cards{
+    justify-content: space-between;
+    &__card{
+      margin-bottom: 40px;
+      border-top-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+      background-color: $tw-white;
+
+      .card-img{
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+      }
+
+      .card-text{
+        padding: 10px 20px;
+        h3{
+          margin: 0;
+          padding: 0;
+          color: $tw-yellow;
+        }
+        p{
+          font-size: 18px;
+        }
+      }
+
+      @media(min-width:721px){
+        width: 48.5%;
+      }
+      @media(max-width: 720px){
+        width: 86%;
+        margin-left: 10px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
