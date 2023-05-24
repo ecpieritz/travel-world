@@ -1,1 +1,46 @@
 @import '../../styles.scss';
+
+.tw-services{
+  margin: 150px auto 80px;
+
+  &__title{
+    margin-bottom: 80px;
+  }
+  &__cards{
+    .row{
+      justify-content: space-between;
+    }
+    &__card{
+      text-align: center;
+      background-color: $tw-white;
+      padding: 40px 20px;
+      border-radius: 35px;
+
+      -webkit-box-shadow: 0px 0px 30px 0px rgba(107,107,107,1);
+      -moz-box-shadow: 0px 0px 30px 0px rgba(107,107,107,1);
+      box-shadow: 0px 0px 30px 0px rgba(107,107,107,1);
+
+      img{
+        height: 60px;
+      }
+      h4{
+        margin: 30px auto 10px;
+      }
+      p{
+        font-size: 18px;
+      }
+
+      @media(min-width:961px){
+        width: 23%;
+      }
+      @media(min-width:721px) and (max-width: 960px){
+        width: 48%;
+      }
+      @media(max-width: 720px){
+        width: 86%;
+        margin-left: 10px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
