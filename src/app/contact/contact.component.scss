@@ -1,0 +1,33 @@
+@import '../../styles.scss';
+
+.tw-contact{
+  margin: 150px auto 80px;
+  background-color: $tw-yellow;
+  padding: 30px 60px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-image: url(../../assets/img/tw-subscribe__bg.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-position-x: -40px;
+  background-size: 110%;
+
+  &__form{
+    margin: 40px 10% 60px 25%;
+
+    .btn{
+      float: right;
+    }
+  }
+
+  &__img{
+    img{
+      float: right;
+      position: absolute;
+      margin-top: -40px;
+      margin-left: 0;
+      right: 18%;
+
+    }
+  }
+}

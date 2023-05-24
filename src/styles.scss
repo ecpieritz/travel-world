@@ -89,6 +89,17 @@ body {
       color: $tw-text;
     }
   }
+
+  &.btn-blue {
+    background-color: $tw-blue;
+    color: $tw-white;
+    padding: 10px 20px;
+
+    &:hover {
+      background-color: $tw-orange;
+      color: $tw-text;
+    }
+  }
 }
 
 // LISTS
