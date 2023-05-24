@@ -12,19 +12,19 @@ $tw-text: #1e202c;
 $tw-white: #ffffff;
 $tw-bg: #D5D6DB;
 
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
 }
 
-body{
+body {
   background-color: $tw-bg;
   overflow-x: hidden !important;
 }
 
 // TEXTS
-h1{
+h1 {
   font-family: 'Volkhov', serif;
   font-size: 70px;
   color: $tw-blue;
@@ -32,58 +32,86 @@ h1{
   line-height: 1.5;
 }
 
-h2{
+h2 {
   font-family: 'Volkhov', serif;
   font-size: 45px;
   color: $tw-blue;
   font-weight: 700;
 }
 
-h3{
+h3 {
   font-family: 'Volkhov', serif;
   font-size: 35px;
   color: $tw-blue;
   font-weight: 700;
 }
 
-h4{
+h4 {
   font-size: 22px;
   color: $tw-blue;
   font-weight: 700;
 }
 
-p{
+p {
   font-size: 22px;
 }
 
-body{
+body {
   max-width: 100%;
 }
 
 // COLORS
-.tw-color{
-  &__text{
-    &__orange{
+.tw-color {
+  &__text {
+    &__orange {
       color: $tw-orange;
     }
-    &__white{
+
+    &__white {
       color: $tw-white;
     }
-    &__text{
+
+    &__text {
       color: $tw-text;
     }
   }
 }
 
 // BUTTONS
-.btn{
-  &.btn-yellow{
+.btn {
+  &.btn-yellow {
     background-color: $tw-yellow;
     color: $tw-white;
     padding: 10px 20px;
-    &:hover{
+
+    &:hover {
       background-color: $tw-yellow-lg;
       color: $tw-text;
+    }
+  }
+}
+
+// LISTS
+.tw-list {
+  &__orange {
+    list-style: none;
+    /* Remove default bullets */
+
+    li {
+      &::before {
+        content: "\2022";
+        /* Add content: \2022 is the CSS Code/unicode for a bullet */
+        color: $tw-orange;
+        /* Change the color */
+        font-weight: bold;
+        /* If you want it to be bold */
+        display: inline-block;
+        /* Needed to add space between the bullet and the text */
+        width: 1em;
+        /* Also needed for space (tweak if needed) */
+        margin-left: -1em;
+        /* Also needed for space (tweak if needed) */
+      }
     }
   }
 }
