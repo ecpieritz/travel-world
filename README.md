@@ -2,9 +2,9 @@
 
 ## 🖥 Preview
 <p align = "center">
-  <img src = "x" width = "702" height = "auto">
-  <img src = "x" width = "351" height = "auto">
-  <img src = "x" width = "351" height = "auto">
+  <img src = "https://github.com/ecpieritz/travel-world/blob/main/src/assets/img/tw-print__01.jpg?raw=true" width = "702" height = "auto">
+  <img src = "https://github.com/ecpieritz/travel-world/blob/main/src/assets/img/tw-print__02.jpg?raw=true" width = "351" height = "auto">
+  <img src = "https://github.com/ecpieritz/travel-world/blob/main/src/assets/img/tw-print__03.jpg?raw=true" width = "351" height = "auto">
 </p>
 
 ## 📖 About
